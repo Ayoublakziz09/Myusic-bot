@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://discord.gg/FUEHs7RCqz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [DVRKGUN](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [DVRKGUN](https://www.youtube.com/)**\n\n__**COMMANDS :**__ `)
       .addFields(
         // Basic commands category
         {
@@ -71,7 +71,7 @@ module.exports = {
 
     const button3 = new ButtonBuilder()
       .setLabel('Code')
-      .setURL('github.com')
+      .setURL('https://github.com')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
