@@ -37,7 +37,7 @@ const client = new Client({
 });
 const { printWatermark } = require('./functions/handlers');const distube = new DisTube(client, {
   searchSongs: 0,
-  emitNewSongOnly: false,
+  emitNewSongOnly: true,
   leaveOnEmpty: false,
   leaveOnFinish: false,
   leaveOnStop: false,
