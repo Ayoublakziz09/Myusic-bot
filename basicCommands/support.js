@@ -4,12 +4,12 @@ module.exports = {
     name: 'support',
     description: 'support server of this Bot',
     execute(message, args) {
-        const supportServerLink = 'https://discord.gg/FUEHs7RCqz';
+        const supportServerLink = 'https://discord.gg/xsMDkbt9G7';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle('Support server')
             .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime ❤️`)
-            .setThumbnail(`https://cdn.discordapp.com/attachments/1113800537402527903/1119995338359586837/a_e8d3128cee7f07ccec68962a8294f43d.gif`)
+            .setThumbnail(`https://cdn.discordapp.com/attachments/1233827931843989584/1233828253706485911/create-a-gif-for-your-discord-nitro-profile.gif?ex=662e839b&is=662d321b&hm=955c18603eb36ee3c79902bc1fcdbe067b11f5d96332802c6dd852afb404d582&`)
             .setTimestamp();
 
 
