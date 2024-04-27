@@ -5,11 +5,10 @@ module.exports = {
     description: 'Bot owner info',
     execute(message, args) {
         const youtubeLink = 'https://discord.gg/Sn93nSFggf';
-        const InstagramLink = 'https://discord.gg/Sn93nSFggf';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 Myself IYYUB aka Darkgun. I am trying makes discord bot's!\n ❤️ [DVRKGUN](${youtubeLink})\n 💙 [
+            .setDescription(`__**About me**__:\n 🤖 Myself IYYUB aka Darkgun. I am trying makes discord bot's!\n ❤️ [Try My server](${youtubeLink})
             .setTimestamp();
 
 
