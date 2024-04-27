@@ -57,7 +57,7 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1170652474563117138/1224660177039396876/MULTI_MUSIC_v1.5.png?ex=661e4cab&is=660bd7ab&hm=f7a542462fabaf9c1530ece5aa72597cff3ac032876bba46df5ddba7e122ea99&`);
+      .setImage(`https://cdn.discordapp.com/attachments/1233827931843989584/1233828253706485911/create-a-gif-for-your-discord-nitro-profile.gif?ex=662e839b&is=662d321b&hm=955c18603eb36ee3c79902bc1fcdbe067b11f5d96332802c6dd852afb404d582&`);
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
